@@ -1,3 +1,4 @@
+/* GENERAL */
 html {
     font-size: 20px;
 }
@@ -11,6 +12,7 @@ ul {
     list-style: none;
 }
 
+/* NAVIGATION */
 nav {
     background-color: rgb(246, 192, 198);
     display: flex;
@@ -33,11 +35,14 @@ nav li {
     padding: 1rem;
 }
 
+/* MAIN */
+
 .main {
     min-height: 100vh;
     background-color:rgb(154, 154, 154);
 }
 
+/* SECTION 1*/
 .section1 {
     display: flex;
     justify-content: space-around;
@@ -61,6 +66,7 @@ nav li {
     align-self: center;
 }
 
+/* FOOTER */ 
 footer {
     background-color: rgb(246, 192, 198);
     padding: 15px;

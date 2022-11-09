@@ -12,6 +12,12 @@ ul {
     list-style: none;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 /* NAVIGATION */
 nav {
     background-color: rgb(246, 192, 198);
@@ -38,7 +44,7 @@ nav li {
 /* MAIN */
 
 .main {
-    min-height: 100vh;
+    flex-grow: 1;
     background-color:rgb(154, 154, 154);
 }
 
@@ -65,6 +71,24 @@ nav li {
     display: flex;
     align-self: center;
 }
+
+/* SECTION 2 */
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.social-media img {
+    height: 50px;
+    width: 50px;
+    padding: 1rem;
+}
+
+
+
 
 /* FOOTER */ 
 footer {

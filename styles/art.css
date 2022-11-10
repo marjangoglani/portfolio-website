@@ -1,0 +1,74 @@
+/* GENERAL */
+html {
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: rgb(246, 192, 198);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+.logo {
+    padding: 1rem;
+}
+
+
+/* MAIN */
+.main {
+    flex-grow: 1;
+    background-color:rgb(154, 154, 154);
+}
+
+
+/*SOCIAL-MEDIA-SECTION*/
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.social-media img {
+    height: 50px;
+    width: 50px;
+    padding: 1rem;
+}
+
+
+/* FOOTER */ 
+footer {
+    background-color: rgb(246, 192, 198);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
